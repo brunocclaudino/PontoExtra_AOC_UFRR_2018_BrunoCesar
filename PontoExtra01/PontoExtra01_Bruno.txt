@@ -1,0 +1,8 @@
+				Little Endian VS Big Endian
+
+Little Endian - Significa que o byte de menor ordem do número é armazenado na memória nos menores endereços, e os de maior ordem nos maiores endereços.Neste formato instruções em linguagem assembly para pegar um 1, 2, 4 ou um número byte mais longo procedem exatamente da mesma maneira para todos os formatos: primeiro pegar o byte de menor ordem no deslocamento de 0. Também, por causa do relacionamento 1:1 entre deslocamentos de endereços e número do byte (0 deslocado é o byte 0), rotinas matemáticas de múltipla precisão são correspondentemente fáceis de escrever.
+Exemplo: Processadores Intel (usados em PC’s) usam ordenação de bytes “Little Endian”.
+
+Big Endian - Significa que os bytes de maior ordem de um número serão armazenados nos menores endereços, e os de menor ordem nos maiores endereços.Neste formato, por ter o byte de maior ordem primeiro, você pode sempre testar quando o número é positivo ou negativo olhando para o zero deslocado.
+Você não precisa saber o quão longo o número é, nem mesmo precisa pular qualquer byte para encontrar o byte contendo a informação do sinal. Os números são também armazenados na ordem em que são mostrados, então rotinas de binário para decimal são particularmente eficientes.
+Exemplo:Processadores Motorola (usados em Mac’s) usam ordenação de bytes “Big Endian”.
