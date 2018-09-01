@@ -20,3 +20,8 @@ Bom a melhor escolha vai variar de acordo com nossas necessidades, mas levando e
 pude notar que os processadores x86 realizam instruções mais complexas,e atualmente com o avanço das pesquisas
 estes processadores estão solucionando o problema de superaquecimento,que é a sua principal desvantagem,então na minha opinião,a melhor arquitetura
 atualmente é a dos processadores x86.
+
+
+Referencias:
+https://www.tecmundo.com.br/produto/119693-diferenca-processador-arm-um-x86.htm
+https://canaltech.com.br/hardware/O-que-e-um-processador-ARM/
