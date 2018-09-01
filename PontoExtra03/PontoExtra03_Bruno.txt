@@ -1,0 +1,22 @@
+Existem plataformas diferentes de processadores para atender diferentes tipos de necessidades.
+As arquiteturas de processadores são divididas em duas CISC e RISC.
+
+Diferenças arquitetura x86 e ARM –
+Os processadores com arquitetura x86 consomem muita energia e esquentam muito se
+comparado com os processadores de arquitetura ARM, por esse fato os processadores de com
+arquitetura ARM são muito utilizados em dispositivos moveis, o processador x86 tem
+velocidade de processamento superior ao processador de arquitetura ARM, apesar dessas
+diferenças ambas as arquiteturas estão desenvolvendo melhorias nos seus pontos fracos, no
+caso do processador x86 os processadores mais atuais estão com menos gasto de energia e
+menos aquecimento e os processadores ARM estão trabalhando para aumentar a sua
+frequência, atualmente os processadores x86 estão dominando o mercado dos desktops e os
+processadores ARM são mais utilizados em aparelhos moveis.
+
+Exemplo x86: Intel Atom,Intel Core i3,Intel core i5,Intel core i7.
+Exemplo ARM: Snapdragon 810,Snapdragon 835,Samsung Exynos
+
+Qual o melhor?
+Bom a melhor escolha vai variar de acordo com nossas necessidades, mas levando em consideração minhas pesquisas,
+pude notar que os processadores x86 realizam instruções mais complexas,e atualmente com o avanço das pesquisas
+estes processadores estão solucionando o problema de superaquecimento,que é a sua principal desvantagem,então na minha opinião,a melhor arquitetura
+atualmente é a dos processadores x86.
