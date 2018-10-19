@@ -1,0 +1,31 @@
+GOTO
+
+De acordo com o Artigo "Go to Statesmente Considered Harmful" do ano de 1969 ,Edsger Dijkstra defendeu a abolição do goto em todas as linguagens de alto nivel.Dijkstra apresenta dois argumentos,um deles é que o goto complica a prova que uma certa parcela de código esta correta e o seu segundo argumento foi que complica a descrição do que o programa fez até um dado momento.Já Donald E. Knuth em seu artigo "Structured Programming with go to Statements" em que exemplifica as vantagensde goto em linguagens procedurais, como é o caso de C.
+
+Uso do GOTO
+
+As linguagens de alto nível atualmente possuem um sistema de garbage collection que facilitem a vida ao programador que não tem que perder tempo a se preocupar em dealocar o espaço de memória que foi usado. O goto é muito útil neste casos pois simplifica muito o código na leitura e elimina a necessidade de criação de funções para esse efeito o que implicaria possíveis problemas com scope. É também utilizado o goto em casos de error checking. Em outras linguagens de alto nível a próprio linguagem disponibiliza mecanismos que permitem efetuar este tipo de ação como é try...exception(excepção), no caso do Python. A título de curiosidade a implementação do return, break e continue utiliza o goto. Se analisarmos o código gerado pelo compilador veríamos que não há diferenças entre o goto e um if, e sem prejuízos de memória.
+
+Exemplo Mau Uso do GOTO
+
+	MENU:				//codigo com mau uso do goto
+	switch(op) {
+	  case 1: goto ADD;
+	  case 2: goto SUB;
+	  case 3 : goto MULTI;
+	  case 4 : goto DIV;
+	  default: printf(“Por favor escolha uma opção valida\n”); goto MENU;
+	}
+-----------------------------------------------------------------------------------	
+
+	while(1)			//codigo mais apropriado
+	{
+	  if (op == 1)
+	    result = value1 + value2 /* valores pedidos previamente */
+	  if (op == 2)
+	    return = value1 – value 2 /* Verificações necesárias */
+	 /*....*/
+
+Podemos concluir que o goto sofre de uma má fama pelo mau uso dessa ferramenta por parte do programador.E o mesmo quando usado de maneira correta pode ser uma otima ferramenta para o programador.
+
+
