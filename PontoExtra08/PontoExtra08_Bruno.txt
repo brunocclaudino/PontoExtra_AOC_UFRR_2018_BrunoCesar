@@ -28,4 +28,9 @@ Exemplo Mau Uso do GOTO
 
 Podemos concluir que o goto sofre de uma má fama pelo mau uso dessa ferramenta por parte do programador.E o mesmo quando usado de maneira correta pode ser uma otima ferramenta para o programador.
 
+REFERÊNCIAS
+https://www.revista-programar.info/artigos/desbravando-o-goto/
+http://cs.sjsu.edu/~mak/CS185C/KnuthStructuredProgrammingGoTo.pdf
+http://dl.acm.org/citation.cfm?id=1241518
+
 
