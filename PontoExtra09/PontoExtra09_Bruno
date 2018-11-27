@@ -1,0 +1,18 @@
+Funcionamento Raid - "Raid" é uma tecnologia que permite a utilização de multiplos discos de armazenamento como um conjunto.Existem duas tecnicas de raid: mirror e striping.A tecnica mirror tem foco na segurança dos dados, os discos instalados são vistos como um unico disco e todos os dados gravados em um disco são imediatamente gravados em tosos os outros discos, a tecnica mirror fornece mairo desempenho de leitura, visto que os dados podem ser lidos altenardamente de todos os discos do conjunto.Já a tecnica striping tem foco no desempenho, os dados gravados são distribuidos entre os discos de conjunto. No momento da leitura, os dados podem ser lidos alternadamente de todos os discos, com quase o mesmo ganho de leitura do espelhamento,porem como os arquivos são particionados entre os discos do conjunto, a velocidade de escrita é maior.Por outro lado, o striping deixa os dados altamente vulneráveis. Se qualquer um dos discos do conjunto falhar, todos os dados são perdidos, pois em geral não é possível recuperar a parte faltante dos dados a partir do que ficar nos outros discos. Desse modo, quanto mais discos o conjunto tiver, maior a chance de perda total dos dados. Para diminuir esse risco, certas formas de raid utilizam diferentes técnicas de paridade (tecnologia de recuperação de dados).
+
+Funcionamento Blu-ray - Para se fazer a escrita e leitura de dados é utilizado um laser díodo de nitreto de gálio que emite radiação no comprimento de onda de 405nm (zona na transição do azul para o violeta no espectro electromagnético), o que possibilita uma maior capacidade de armazenamento no mesmo espaço físico do disco comparativamente com o DVD que utiliza para escrita e leitura de dados um laser que emite no comprimento de onda de 650nm (zona vermelha do espectro electromagnético). Um disco Blu-ray consegue armazenar cerca de 5 vezes mais informação que o DVD e cerca de 35 vezes mais que o CD. 
+
+
+
+
+
+
+
+
+
+
+
+REFERENCIAS:
+
+http://www.img.lx.it.pt/~fp/cav/ano2011_2012/Trabalhos_MEEC_2012/Artigo21/web_site/car_f_c.html
+http://www.raidbr.com.br/blog/saiba-como-funciona-um-raid_1.html
